@@ -6,12 +6,18 @@
 
 ### 环境配置
 
+##### conda
+
 ```shell
 cd path/to/root
 conda create --name movie_evaluation python=3.10.13
 conda activate movie_evaluation
 pip install -r requirements.txt
 ```
+
+##### 项目
+
+请按照项目结构说明，在 data 中新建 processed 文件夹，在根目录下新建 weight 文件夹。
 
 ### 运行测试
 
