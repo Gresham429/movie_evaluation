@@ -1,0 +1,16 @@
+{
+    "preprocess": {
+        "paths": {
+            "file_path1": "path/to/movie_evaluation/data/raw/tags.csv",
+            "file_path2": "path/to/movie_evaluation/data/raw/movies.csv",
+            "file_path3": "path/to/movie_evaluation/data/raw/ratings.csv",
+            "file_path4": "path/to/movie_evaluation/data/external/external_info.csv",
+            "output_file": "path/to/movie_evaluation/data/processed/cleaned_data.csv",
+            "links_file": "path/to/movie_evaluation/data/raw/links.csv",
+            "external_folder_path": "path/to/movie_evaluation/data/external/"
+        },
+        "options": {
+            "on_column": "movieId"
+        }
+    }
+}
